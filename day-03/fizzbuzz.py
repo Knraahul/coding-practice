@@ -5,6 +5,8 @@ elif Fizzbuzz %3==0:
     print("Fizz")
 elif Fizzbuzz %5==0:
     print("Buzz")  
+elif Fizzbuzz >=1 and Fizzbuzz <=100:
+    print(Fizzbuzz)    
 else:
     print("Enter the number between 1-100:")
     exit()          
